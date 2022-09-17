@@ -1,0 +1,42 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+:root {
+  --primary_bg_color: white;
+}
+body {
+  background-color: var(--primary_bg_color);
+}
+h3 {
+  font-size: small;
+  font-style: italic;
+}
+p {
+  font-size: small;
+  font-style: italic;
+  font-weight: bold;
+}
+button {
+  cursor: pointer;
+  border-radius: 1.5rem solid black;
+  border: 1px solid black;
+  background: azure;
+  padding: 2rem, 1.5rem;
+  margin: 2rem, 1rem;
+}
+
+li {
+  border: 1px solid #d1d5db;
+  width: 80%;
+  margin: 1rem, 0.5rem;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+.btnop {
+  font-size: larger;
+}
+
+.btnopp {
+  font-size: small;
+}
